@@ -1,0 +1,213 @@
+Important Points to Maintain in CBSE AI Capstone Project Format
+
+1. Cover Page
+Include:
+ Project Title
+ Subject: ArƟficial Intelligence (417)
+ Student Name
+ Roll Number
+ Class & SecƟon
+ School Name
+ Session Year
+ Teacher Name
+膆 Keep it clean and professional.
+
+2. CerƟficate
+MenƟon:
+
+ Project compleƟon statement
+ Teacher signature space
+ Examiner signature space
+ School seal
+膆 Use formal language.
+
+3. Acknowledgement
+Thank:
+ AI Teacher
+ School
+ Parents/Friends
+ Team Members
+膆Keep it short and respecƞul.
+
+4. Index/Table of Contents
+Add:
+ All chapter names
+ Page numbers
+膆Helps maintain proper documentaƟon structure.
+
+5. IntroducƟon
+Explain:
+ What the project is
+ Why it is important
+ Real-world problem
+
+膆 Write in simple and easy English.
+
+6. Problem Statement
+Clearly define:
+ What issue your project solves
+ Why the issue maƩers
+Example:
+“Many bike riders travel without helmets, causing fatal accidents.”
+膆Keep the problem specific and realisƟc.
+
+7. ObjecƟves of the Project
+MenƟon:
+ Main goals
+ Expected outcomes
+Example:
+ Detect helmets automaƟcally
+ Improve traffic safety
+ Reduce accidents
+膆 Use bullet points.
+
+8. SDG Goal Alignment (VERY IMPORTANT 꽅꽆)
+CBSE specifically asks projects to align with SDGs.
+MenƟon:
+ Which SDG your project supports
+ How it helps society
+Example:
+
+SDG 3: Good Health and Well-Being
+膆 Add SDG logo/image if possible.
+
+9. ExisƟng System
+Explain:
+ Current method
+ Drawbacks/problems
+Example:
+“Traffic police manually monitor riders.”
+膆Shows why your AI soluƟon is needed.
+
+10. Proposed System
+Explain:
+ Your AI soluƟon
+ How it works
+ What makes it beƩer
+膆MenƟon AI concepts used.
+
+11. AI Concepts Used
+This secƟon is VERY important in AI projects ���
+MenƟon:
+ Computer Vision
+ Machine Learning
+ Object DetecƟon
+ Deep Learning
+ Image Processing
+
+膆 Explain each in 2–3 lines.
+
+12. Hardware Requirements
+MenƟon:
+ Camera
+ Laptop
+ Sensors
+ Internet
+膆 Use table format.
+
+13. SoŌware Requirements
+MenƟon:
+ Python
+ OpenCV
+ VS Code
+ TensorFlow
+ YOLO
+膆 Add versions if possible.
+
+14. Methodology
+Explain the complete workflow step-by-step.
+Example:
+1. Capture image
+2. Process image
+3. Detect rider
+
+4. Detect helmet
+5. Display result
+膆 Use numbering.
+
+15. Flowchart
+Create a simple flowchart.
+CBSE loves visual explanaƟon 궬궨궭궮궯
+Include:
+START → PROCESS → DECISION → OUTPUT → END
+膆 Make it neat.
+
+16. Algorithm
+Write steps logically.
+Example:
+1. Start system
+2. Access camera
+3. Read frames
+4. Detect object
+5. Show output
+膆 Simple English is enough.
+
+17. Python Code
+Include:
+ Main code
+ Important funcƟons
+ Comments in code
+
+膆 Add screenshots of code output.
+
+18. Output Screenshots
+VERY IMPORTANT 꺑꺘꺓꺚꺔꺛꺕꺙
+Include:
+ Program running
+ Helmet detected
+ No helmet detected
+ Blue/red boxes
+膆 Label each image properly.
+
+19. Working of Project
+Explain:
+ How the project runs in real life
+ Input → Processing → Output
+膆 Add screenshots if possible.
+
+20. Advantages
+MenƟon benefits:
+ AutomaƟon
+ Saves Ɵme
+ Accuracy
+ Safety improvement
+膆 Use bullet points.
+
+21. LimitaƟons
+MenƟon realisƟc limitaƟons:
+ Poor lighƟng
+ Camera quality issues
+ Weather effects
+膆 CBSE appreciates honesty in projects.
+
+22. Future Scope
+MenƟon future improvements:
+ AutomaƟc challan system
+ Number plate recogniƟon
+ Cloud storage
+ Mobile app
+膆Shows innovaƟon mindset 띙띚띞띟띛띜띝
+
+23. Conclusion
+Summarize:
+ What you achieved
+ Importance of AI
+ Final outcome
+膆Keep it concise and impacƞul.
+
+24. Bibliography/References
+MenƟon:
+ Websites
+
+ SoŌware used
+ Books/research
+Example:
+ Python.org
+ OpenCV DocumentaƟon
+ CBSE AI Curriculum
+膆 Proper references improve professionalism.
+
+25. Viva QuesƟons
+Add:
+ 10–15 expected viva quesƟons
+CBSE external examiners oŌen ask from documentaƟon itself 蚘蚓蚔蚕蚖蚗
