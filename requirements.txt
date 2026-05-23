@@ -1,0 +1,10 @@
+SOFTWARE REQUIREMENTS (EVERYONE can try INSTALLING):
+1. Python 3.11(Stable and compatible, from Python Official Website)
+OPTIONAL: 2. VS Code (Only if laptop works properly)
+Weak laptop: Python IDLE
+
+LIBRARIES TO USE:
+pip install pyspellchecker
+pip install textblob
+
+**Optional later: pip install language-tool-python
