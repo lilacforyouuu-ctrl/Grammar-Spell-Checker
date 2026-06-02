@@ -26,9 +26,17 @@ def fix_sentence_context(dirty_text: str) -> str:
         "skool": "school",
         "skul": "school",
         "stuy": "study",
-        "englh": "English"
+        "englh": "English",
+        "u": "you",
+        "r": "are",
+        "bcoz": "because",
+        "pls": "please",
+        "thx": "thanks",
+        "gr8": "great",
+        "wont": "won't",
+        "cant": "can't",
+        "idk": "I do not know"
     }
-    
     # Split the sentence into individual words to check for slang matches
     words = dirty_text.split()
     cleaned_words = []
