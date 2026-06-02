@@ -182,7 +182,7 @@ status.pack(fill="x", padx=30, pady=(0, 10))
 
 footer = tk.Label(
     root,
-    text="Developed by Saraah • Yashika • Bisteerna • Bastav • Riyan , Siddarth",
+    text="Developed by SpellSync: Saraah • Riyan • Bastav • Bisteerna • Yashika • Siddharth",
     bg="#FCF8F8",
     fg="#4A70A9",
     font=("Georgia", 9, "italic")
