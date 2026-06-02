@@ -23,7 +23,7 @@ def clear_text():
 
 root = tk.Tk()
 root.title("Spell & Grammar Checker")
-root.geometry("900x650")
+root.geometry("900x700")
 root.configure(bg="#FCF8F8")
 root.resizable(False, False)
 
@@ -176,17 +176,19 @@ status = tk.Label(
     font=("Segoe UI", 10, "bold"),
     pady=6
 )
-status.pack(fill="x", padx=30, pady=(0, 10))
+status.pack(fill="x", padx=30, pady=(0, 5))
 
 # ---------------- FOOTER ---------------- #
 
 footer = tk.Label(
     root,
-    text="• Developed by SpellSync •",
+    text="Developed by Saraah • Yashika • Bisteerna • Bastav • Riyan • Siddharth",
     bg="#FCF8F8",
     fg="#4A70A9",
-    font=("Georgia", 16, "italic")
+    font=("Georgia", 10, "italic"),
+    anchor="center",
+    pady=10
 )
-footer.pack(pady=(0, 10))
+footer.pack(side="bottom", fill="x")
 
 root.mainloop()
