@@ -185,7 +185,7 @@ footer = tk.Label(
     text="• Developed by SpellSync •",
     bg="#FCF8F8",
     fg="#4A70A9",
-    font=("Georgia", 9, "italic")
+    font=("Georgia", 16, "italic")
 )
 footer.pack(pady=(0, 10))
 
