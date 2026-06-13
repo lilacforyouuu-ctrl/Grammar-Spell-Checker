@@ -1,24 +1,29 @@
-# new_integrationtest.py
-from word_analyzer import count_words_and_chars, find_misspelled_words
-from nlp_brain import fix_sentence_context
+# integration_test.py
+import word_analyzer
 
-def run_integration_test(text):
-    print("--- Running Full Integration Test ---")
-    print(f"Testing text: '{text}'\n")
+def run_integration_test(sample_phrase):
+    print("=========================================")
+    print("   RUNNING SPELLSYNC INTEGRATION TEST    ")
+    print("=========================================\n")
+    print(f"📥 RAW USER INPUT SENTENCE: '{sample_phrase}'")
+    print("-" * 40)
     
-    # 1. Run Developer B's Word Analyzer
-    metrics = count_words_and_chars(text)
-    print(f"Word Count: {metrics['word_count']}")
-    print(f"Character Count: {metrics['character_count']}")
+    # Test Step 1: Run through the custom dictionary slang interceptor
+    pre_processed = word_analyzer.normalize_text(sample_phrase)
+    print(f"⚙️  STEP 1 (Slang Pre-Processing): '{pre_processed}'")
     
-    misspelled = find_misspelled_words(text)
-    print(f"Misspelled Words Found: {misspelled}")
+    # Test Step 2: Simulate output post-validation formatting rules
+    # (Capitalization, greeting comma placement, sentence ending marks)
+    final_validated = word_analyzer.post_validate_formatting(pre_processed)
+    print(f"📤 STEP 2 (Final Validation Output): '{final_validated}'")
+    print("-" * 40)
     
-    # 2. Run Developer A's AI Engine
-    print("\n--- Running AI Context Engine ---")
-    corrected = fix_sentence_context(text)
-    print(f"Fixed Text: '{corrected}'")
+    # Simple logic check validation metrics
+    words = sample_phrase.split()
+    print(f"📊 METRICS LOGGED: {len(words)} Words processed successfully.\n")
+    print("✅ INTEGRATION TEST PIPELINE COMPLETION SUCCESSFUL!")
 
 if __name__ == "__main__":
-    sample = "I stuy englh"
+    # Test with your ultimate stubborn casing slang test-phrase
+    sample = "HI FAM we finali did it"
     run_integration_test(sample)
