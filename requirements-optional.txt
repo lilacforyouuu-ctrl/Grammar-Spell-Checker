@@ -1,0 +1,7 @@
+# Optional features only; the Tkinter interface and learning games use the Python standard library.
+requests
+deep-translator
+pypdf
+pyttsx3
+SpeechRecognition
+pyaudio
